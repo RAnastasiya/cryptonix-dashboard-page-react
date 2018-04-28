@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+$menu: #1D2024;
+$dashboard-color: #18191D;
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body, #root{
+  height: 100%;
+}
+.container{
+  display: flex;
+  height: 100%;
+  min-height: 775px;
+}
+
+/* Menu */
+.block-menu{
+  background: $menu;
+  position: relative;
+  width: 90px;
+  height: 100%;
+}
+.logo{
+  background: url(../images/logo.png) no-repeat 0 0;
+  background-size: contain;
+  height: 30.5px;
+  width: 26px;
+  margin: 35px 32px;
+}
+.block-menu-items{
+  padding-top: 29.5px;
+  min-height: 482.4px;
+  position: relative;
+  background-size: contain;
+  ul{
+    list-style-type: none;
+  }
+  li{
+    padding: 22.3px 0;
+    background-size: contain;
+    height: 15.6px;
+    div{
+      padding: 22.3px 0;
+      background-size: contain;
+      height: 15.6px;
+      width: 15.2px;
+      margin-left: 37.8px;
+
+    }
+  }
+  li:hover {
+    background-color: #2A2B31;
+    div{
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+.btn-dashboard{
+  background: url(../images/dashboard-icon.png) no-repeat;
+}
+.btn-balance{
+  background: url(../images/balance-icon.png) no-repeat;
+}
+.btn-graphics{
+  background: url(../images/graphics-icon.png) no-repeat;
+}
+.btn-calendar{
+  background: url(../images/calendar-icon.png) no-repeat;
+}
+.btn-time{
+  background: url(../images/time-icon.png) no-repeat;
+}
+.btn-calculator{
+  background: url(../images/calculator-icon.png) no-repeat;
+}
+.btn-cost{
+  background: url(../images/cost-icon.png) no-repeat;
+}
+.btn-settings{
+  background: url(../images/settings-icon.png) no-repeat;
+}
+
+.block-chat{
+  background: url(../images/chat.png) no-repeat;
+  bottom: 0;
+  position: absolute;
+  background-size: contain;
+  height: 34px;
+  width: 34px;
+  margin: 100px 32px 32px 32px;
+}
+.block-chat:hover {
+  filter: invert(0.1);
+}
+
+
+/* Dashboard */
+.block-dashboard{
+  background: $dashboard-color;
+  width: 100%;
+  font-size: 20px;
+}
