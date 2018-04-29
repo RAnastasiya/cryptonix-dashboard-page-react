@@ -4,7 +4,7 @@ class Markets extends Component {
     render() {
 
         return (
-          <div className="block-markets">
+          <div className="block-markets block">
           </div>
         );
     }

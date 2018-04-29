@@ -4,7 +4,7 @@ class BitcoinChart extends Component {
     render() {
 
         return (
-          <div className="block-bitcoinChart">
+          <div className="block-bitcoinChart block">
           </div>
         );
     }

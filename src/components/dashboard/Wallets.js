@@ -4,7 +4,7 @@ class Wallets extends Component {
     render() {
 
         return (
-          <div className="block-wallets">
+          <div className="block-wallets block">
           </div>
         );
     }
