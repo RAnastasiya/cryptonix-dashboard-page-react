@@ -1,5 +1,58 @@
+$color-block: #1D2024;
 /* block-dashboard */
 .block-dashboard{
-  background: #FFFFFF;
   height: 100%;
+  display: flex;
+
+}
+.left-block{
+  flex: 3 3 22%;
+  padding-left: 20px;
+  padding-right: 10px;
+ div{
+   margin: 20px 10px 0 10px;
+   background: $color-block;
+   border-radius: 2px;
+ }
+}
+.right-block{
+  justify-content: flex-end;
+  flex: 1 1 5%;
+  margin-right: 37px;
+  div{
+    min-width: 313px;
+    width: 100%;
+    margin: 20px 0 20px auto;
+    background: $color-block;
+    border-radius: 2px;
+  }
+}
+.block-overview{
+  min-width: 270px;
+  width: 30%;
+  height: 300px;
+}
+.block-wallets{
+  min-width: 620px;
+  width: 66%;
+  height: 300px;
+}
+.block-bitcoinChart{
+  min-width: 655px;
+  width: 70%;
+  height: 300px;
+}
+.block-markets{
+  min-width: 235px;
+  width: 26%;
+  height: 300px;
+}
+
+
+.block-transactions{
+  height: 477px;
+
+}
+.block-news{
+  height: 120px;
 }

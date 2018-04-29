@@ -11,7 +11,7 @@ class Dashboard extends Component {
 
         return (
           <div className="block-dashboard">
-            <div className="left-block">
+            <div className="left-block flex-container wrap">
               <Overview />
               <Wallets />
               <BitcoinChart />

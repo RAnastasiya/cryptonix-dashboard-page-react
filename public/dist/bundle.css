@@ -1,7 +1,53 @@
 /* block-dashboard */
 .block-dashboard {
-  background: #FFFFFF;
-  height: 100%; }
+  height: 100%;
+  display: flex; }
+
+.left-block {
+  flex: 3 3 22%;
+  padding-left: 20px;
+  padding-right: 10px; }
+  .left-block div {
+    margin: 20px 10px 0 10px;
+    background: #1D2024;
+    border-radius: 2px; }
+
+.right-block {
+  justify-content: flex-end;
+  flex: 1 1 5%;
+  margin-right: 37px; }
+  .right-block div {
+    min-width: 313px;
+    width: 100%;
+    margin: 20px 0 20px auto;
+    background: #1D2024;
+    border-radius: 2px; }
+
+.block-overview {
+  min-width: 270px;
+  width: 30%;
+  height: 300px; }
+
+.block-wallets {
+  min-width: 620px;
+  width: 66%;
+  height: 300px; }
+
+.block-bitcoinChart {
+  min-width: 655px;
+  width: 70%;
+  height: 300px; }
+
+.block-markets {
+  min-width: 235px;
+  width: 26%;
+  height: 300px; }
+
+.block-transactions {
+  height: 477px; }
+
+.block-news {
+  height: 120px; }
 * {
   margin: 0;
   padding: 0; }
@@ -101,7 +147,8 @@ html, body, #root {
 /* Header */
 .flex-container {
   display: flex;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  padding-bottom: 30px; }
 
 .wrap {
   flex-wrap: wrap; }
