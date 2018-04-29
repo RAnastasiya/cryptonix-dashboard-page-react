@@ -2,8 +2,13 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import "./fonts";
+
 $menu: #1D2024;
 $dashboard-color: #18191D;
+$text-on-page: #FFFFFF;
+
+
 *{
   margin: 0;
   padding: 0;
@@ -96,11 +101,162 @@ html, body, #root{
 .block-chat:hover {
   filter: invert(0.1);
 }
-
-
 /* Dashboard */
 .block-dashboard{
   background: $dashboard-color;
   width: 100%;
   font-size: 20px;
+}
+
+.flex-item {
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Header */
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.name-page{
+  font-family: SFNSDisplay, sans-serif;
+  font-size: 24px;
+  color: $text-on-page;
+  letter-spacing: 0.3px;
+  text-align: center;
+  padding: 21px 100px 0 14px;
+  flex: none;
+}
+.search-container{
+  width: 245px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  padding: 21px 0 0 14px;
+  flex: 2;
+  input{
+    width: 245px;
+    height: 35px;
+    background: #2A2B31;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    font-family: AppleSystemUIFont, serif;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    padding-left: 13px;
+  }
+  input::-webkit-input-placeholder {
+    color: #42434B;
+
+  }
+  input:-moz-placeholder { /* Firefox 18- */
+    color: #42434B;
+  }
+  input::-moz-placeholder {  /* Firefox 19+ */
+    color: #42434B;
+  }
+  input:-ms-input-placeholder {
+    color: #42434B;
+  }
+  span{
+    margin-top: 3px;
+    z-index: 1;
+    color: #42434B;
+    right: 25px;
+    position: relative;
+  }
+  svg{
+    font-size: 15px;
+  }
+}
+.support-container{
+  width: 150px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  padding: 21px 0 0 14px;
+  flex: 2;
+  .btn-exclamation{
+    width: 96px;
+    height: 35px;
+    background: #2A2B31;
+    border: none;
+    padding-left: 20px;
+    color: $text-on-page;
+    font-family: Lato-Regular, serif;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+  .exclamation-icon{
+    position: absolute;
+    z-index: 1;
+    color: #42434B;
+    left: 25px;
+    .svg{
+      font-size: 15px;
+      color: #42434B;
+    }
+  }
+  .btn-plus{
+    border: 2px solid #3F4048;
+    border-radius: 2px;
+    width: 35px;
+    height: 35px;
+    background: $dashboard-color;
+    color: #3F4048;
+    font-family: Lato-Regular, serif;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 12px;
+    p{
+      height: 35px;
+      margin-top: -12px;
+    }
+  }
+}
+
+
+.user-info-container {
+  width: 150px;
+  padding: 21px 37px 0 14px;
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+.menu-user-info {
+  padding-top: 8px;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #3F4048;
+}
+
+.user-icon{
+  width: 200px;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  .user-name{
+    width: 150px;
+    padding-top: 10px;
+    p{
+      color: $text-on-page;
+      font-family: Lato-Regular, serif;
+      font-size: 14px;
+      letter-spacing: 0.3px;
+      text-align: center;
+    }
+  }
+  svg{
+    border: 2px solid #3F4048;
+    width: 33px;
+    height: 33px;
+    color: #3F4048;
+  }
 }

@@ -4,10 +4,10 @@
   "description": "Everything you need to get started with a basic React application",
   "watch": true,
   "dependencies": {
-    "compass": "^0.1.1",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-icons": "^2.2.7",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2",
     "responsive-loader": "^1.1.0",

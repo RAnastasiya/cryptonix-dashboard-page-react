@@ -27,13 +27,14 @@ module.exports = {
           presets: ["react", "stage-0", "es2015"],
           plugins: ["transform-class-properties", "transform-decorators-legacy"]
         }
-      },{
-            test: /\.(png|jpg|gif)$/,
-            loader: "url-loader",
-            options: {
-                fallback: "responsive-loader"
-            }
+      },
+      {
+        test: /\.(png|jpg|gif|woff|woff2|eot|ttf|svg)$/,
+        loader: "url-loader",
+        options: {
+          fallback: "responsive-loader"
         }
+      }
     ]
   },
   devServer: {
