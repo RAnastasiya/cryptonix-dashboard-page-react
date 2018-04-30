@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0; }
 
-html, body, #root {
+html, body {
   height: 100%; }
 
 .container {
@@ -14,8 +14,7 @@ html, body, #root {
 .block-menu {
   background: #1D2024;
   position: relative;
-  width: 90px;
-  height: 100%; }
+  width: 90px; }
 
 .logo {
   background: url(data:image/png;base64,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) no-repeat 0 0;
@@ -85,7 +84,6 @@ html, body, #root {
 /* Dashboard */
 .block-main {
   background: #18191D;
-  width: 100%;
   font-size: 20px;
   flex-direction: column;
   display: flex; }
@@ -387,42 +385,43 @@ html, body, #root {
       display: flex;
       flex-direction: row; }
       .block-wallets .wallets-values .currency-of-wallet-values div {
-        border-radius: 2px;
+        border-radius: 2px; }
+      .block-wallets .wallets-values .currency-of-wallet-values .currency1 {
         width: 200px;
         background: #7AC231;
         flex: auto;
         display: flex;
         flex-direction: column;
         padding: 10px; }
-        .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(1) {
+        .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(1) {
           display: flex;
           flex-direction: row; }
-          .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(1) p {
+          .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(1) p {
             font-family: Lato-Regular, serif;
             font-size: 12px;
             color: #65A028;
             letter-spacing: 0.26px;
             flex: 3;
             margin: 10px; }
-          .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(1) svg {
+          .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(1) svg {
             padding: 5px;
             background: #65A028;
             border-radius: 2px;
             height: 30px;
             width: 30px;
             color: white; }
-        .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(2) {
+        .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(2) {
           display: flex;
           flex-direction: row;
           margin-top: 20px; }
-          .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(2) p:nth-child(1) {
+          .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(2) p:nth-child(1) {
             font-family: Lato-Regular, serif;
             font-size: 16px;
             color: #FFFFFF;
             letter-spacing: 0.34px;
             margin: 10px;
             flex: 3; }
-          .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(2) p:nth-child(2) {
+          .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(2) p:nth-child(2) {
             font-family: Lato-Regular, serif;
             font-size: 24px;
             color: #FFFFFF;
@@ -430,26 +429,142 @@ html, body, #root {
             width: 110px;
             text-align: right;
             margin-bottom: 10px; }
-      .block-wallets .wallets-values .currency-of-wallet-values ul {
+      .block-wallets .wallets-values .currency-of-wallet-values .currency2 {
         width: 120px;
-        border-radius: 2px; }
-        .block-wallets .wallets-values .currency-of-wallet-values ul li {
-          margin-left: 20px;
-          background: #1D2024; }
+        margin-left: 20px;
+        padding: 10px;
+        background: #1D2024;
+        display: flex;
+        flex-direction: column; }
+        .block-wallets .wallets-values .currency-of-wallet-values .currency2 div:nth-child(1) {
+          display: flex;
+          flex-direction: row; }
+          .block-wallets .wallets-values .currency-of-wallet-values .currency2 div:nth-child(1) p {
+            font-family: Lato-Regular, serif;
+            font-size: 12px;
+            color: #3A3C43;
+            letter-spacing: 0.26px;
+            flex: 3;
+            margin: 10px; }
+          .block-wallets .wallets-values .currency-of-wallet-values .currency2 div:nth-child(1) svg {
+            padding: 5px;
+            background: #3A3C43;
+            border-radius: 2px;
+            height: 30px;
+            width: 30px;
+            color: white; }
+        .block-wallets .wallets-values .currency-of-wallet-values .currency2 .currency-name {
+          font-family: Lato-Regular, serif;
+          font-size: 16px;
+          color: #FFFFFF;
+          letter-spacing: 0.34px;
+          padding-top: 25px;
+          padding-left: 10px; }
     .block-wallets .wallets-values .currency-of-wallet {
       display: flex;
       flex-direction: row; }
       .block-wallets .wallets-values .currency-of-wallet div {
-        height: 165px;
+        height: 148px;
         opacity: 0.63;
         background: #222429;
         border-radius: 2px; }
-      .block-wallets .wallets-values .currency-of-wallet div:nth-child(1) {
+      .block-wallets .wallets-values .currency-of-wallet .currency-ratet {
         flex: auto;
-        width: 269px; }
-      .block-wallets .wallets-values .currency-of-wallet div:nth-child(2) {
+        width: 269px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px; }
+        .block-wallets .wallets-values .currency-of-wallet .currency-ratet div {
+          height: 30px;
+          display: flex;
+          flex-direction: row;
+          margin: 7px; }
+          .block-wallets .wallets-values .currency-of-wallet .currency-ratet div svg:nth-child(1) {
+            padding-right: 20px;
+            flex: 1; }
+            .block-wallets .wallets-values .currency-of-wallet .currency-ratet div svg:nth-child(1) circle:nth-child(1) {
+              fill: #222429;
+              stroke: #606166;
+              stroke-width: 3px; }
+            .block-wallets .wallets-values .currency-of-wallet .currency-ratet div svg:nth-child(1) circle:nth-child(2) {
+              fill: #222429;
+              stroke: #7AC231;
+              stroke-width: 3px; }
+          .block-wallets .wallets-values .currency-of-wallet .currency-ratet div p:nth-child(2) {
+            font-family: SFNSDisplay, serif;
+            font-size: 26px;
+            color: #FFFFFF;
+            letter-spacing: 0.3px;
+            padding: 3px;
+            width: 50px;
+            flex: 3; }
+          .block-wallets .wallets-values .currency-of-wallet .currency-ratet div p:nth-child(3) {
+            font-family: Lato-Regular, serif;
+            font-size: 14px;
+            color: #606166;
+            letter-spacing: 0.3px;
+            padding: 9px;
+            width: 50px;
+            flex: 3; }
+          .block-wallets .wallets-values .currency-of-wallet .currency-ratet div svg:nth-child(4) {
+            font-size: 16px;
+            color: #606166;
+            padding: 8px; }
+      .block-wallets .wallets-values .currency-of-wallet .currency-send {
         width: 330px;
-        margin-left: 20px; }
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px; }
+        .block-wallets .wallets-values .currency-of-wallet .currency-send div {
+          display: flex;
+          flex-direction: row;
+          margin: 15px; }
+        .block-wallets .wallets-values .currency-of-wallet .currency-send div:nth-child(1) p {
+          font-family: Lato-Regular, serif;
+          font-size: 11px;
+          color: #FFFFFF;
+          letter-spacing: 0.41px;
+          text-align: right;
+          padding-right: 10px; }
+        .block-wallets .wallets-values .currency-of-wallet .currency-send div:nth-child(1) input {
+          background: #2A2B31;
+          border-radius: 2px;
+          width: 65px;
+          height: 29px; }
+        .block-wallets .wallets-values .currency-of-wallet .currency-send div:nth-child(2) p {
+          font-family: Lato-Regular, serif;
+          font-size: 11px;
+          color: #FFFFFF;
+          letter-spacing: 0.41px;
+          text-align: right;
+          padding-right: 10px; }
+        .block-wallets .wallets-values .currency-of-wallet .currency-send div:nth-child(2) input {
+          background: #2A2B31;
+          border-radius: 2px;
+          width: 231px;
+          height: 29px;
+          font-family: AppleSystemUIFont, serif;
+          font-size: 12px;
+          color: #FFFFFF;
+          letter-spacing: 0.3px; }
+        .block-wallets .wallets-values .currency-of-wallet .currency-send div:nth-child(3) p {
+          font-family: Lato-Regular, serif;
+          font-size: 12px;
+          color: #606166;
+          letter-spacing: 0.3px;
+          text-align: center;
+          flex: 3; }
+        .block-wallets .wallets-values .currency-of-wallet .currency-send div:nth-child(3) button {
+          border: 2px solid #3F4048;
+          border-radius: 60px;
+          width: 53px;
+          height: 23px;
+          font-family: Lato-Regular, serif;
+          font-size: 12px;
+          color: #FFFFFF;
+          letter-spacing: 0.3px;
+          text-align: center; }
 
 .block-bitcoinChart {
   min-width: 655px;

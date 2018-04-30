@@ -245,7 +245,38 @@ $btn-text: #42434B;
       .currency2{
         width: 120px;
         margin-left: 20px;
+        padding: 10px;
         background: #1D2024;
+        display: flex;
+        flex-direction: column;
+        div:nth-child(1){
+          display: flex;
+          flex-direction: row;
+          p{
+            font-family: Lato-Regular, serif;
+            font-size: 12px;
+            color: #3A3C43;
+            letter-spacing: 0.26px;
+            flex: 3;
+            margin: 10px;
+          }
+          svg{
+            padding: 5px;
+            background: #3A3C43;
+            border-radius: 2px;
+            height: 30px;
+            width: 30px;
+            color: white;
+          }
+        }
+        .currency-name{
+          font-family: Lato-Regular, serif;
+          font-size: 16px;
+          color: #FFFFFF;
+          letter-spacing: 0.34px;
+          padding-top: 25px;
+          padding-left: 10px;
+        }
 
       }
     }
@@ -253,18 +284,133 @@ $btn-text: #42434B;
       display: flex;
       flex-direction: row;
       div{
-        height: 165px;
+        height: 148px;
         opacity: 0.63;
         background: #222429;
         border-radius: 2px;
       }
-      div:nth-child(1){
+      .currency-ratet{
         flex: auto;
         width: 269px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        div{
+          height: 30px;
+          display: flex;
+          flex-direction: row;
+          margin: 7px;
+          svg:nth-child(1){
+            padding-right: 20px;
+            flex: 1;
+            circle:nth-child(1){
+              fill: #222429;
+              stroke: #606166;
+              stroke-width: 3px;
+            }
+            circle:nth-child(2){
+               fill: #222429;
+               stroke: #7AC231;
+               stroke-width: 3px;
+             }
+          }
+          p:nth-child(2){
+            font-family: SFNSDisplay, serif;
+            font-size: 26px;
+            color: #FFFFFF;
+            letter-spacing: 0.3px;
+            padding: 3px;
+            width: 50px;
+            flex: 3;
+          }
+          p:nth-child(3){
+            font-family: Lato-Regular, serif;
+            font-size: 14px;
+            color: #606166;
+            letter-spacing: 0.3px;
+            padding: 9px;
+            width: 50px;
+            flex: 3;
+          }
+          svg:nth-child(4){
+            font-size: 16px;
+            color: #606166;
+            padding: 8px;
+          }
+        }
+
       }
-      div:nth-child(2){
+      .currency-send{
         width: 330px;
         margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        div{
+          display: flex;
+          flex-direction: row;
+          margin: 15px;
+        }
+        div:nth-child(1){
+          p{
+            font-family: Lato-Regular, serif;
+            font-size: 11px;
+            color: #FFFFFF;
+            letter-spacing: 0.41px;
+            text-align: right;
+            padding-right: 10px;
+          }
+          input{
+            background: #2A2B31;
+            border-radius: 2px;
+            width: 65px;
+            height: 29px;
+          }
+          p:nth-child(1){
+
+          }
+        }
+        div:nth-child(2){
+          p{
+            font-family: Lato-Regular, serif;
+            font-size: 11px;
+            color: #FFFFFF;
+            letter-spacing: 0.41px;
+            text-align: right;
+            padding-right: 10px;
+          }
+          input{
+            background: #2A2B31;
+            border-radius: 2px;
+            width: 231px;
+            height: 29px;
+            font-family: AppleSystemUIFont, serif;
+            font-size: 12px;
+            color: #FFFFFF;
+            letter-spacing: 0.3px;
+          }
+        }
+        div:nth-child(3){
+          p{
+            font-family: Lato-Regular, serif;
+            font-size: 12px;
+            color: #606166;
+            letter-spacing: 0.3px;
+            text-align: center;
+            flex: 3;
+          }
+          button{
+            border: 2px solid #3F4048;
+            border-radius: 60px;
+            width: 53px;
+            height: 23px;
+            font-family: Lato-Regular, serif;
+            font-size: 12px;
+            color: #FFFFFF;
+            letter-spacing: 0.3px;
+            text-align: center;
+          }
+        }
       }
     }
   }

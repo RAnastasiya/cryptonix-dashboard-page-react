@@ -1,26 +1,28 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
+import FaEur from "react-icons/lib/fa/eur";
 
 class Currencies extends Component{
-    showList(){
-        return this.props.links.map ((link) => {
-            return(
-              <li key={link.id} >
-                <div key={link.id} className={link.class}/>
-              </li>
-            );
-        });
-    }
     render(){
-        return <ul>
-          {this.showList()}
-        </ul>;
+        return this.props.currencies.map ((currency) => {
+            if (currency.id !== 1) {
+                return(
+                  <div  key={currency.id} className="currency2">
+                    <div>
+                      <p>{currency.value}</p>
+                      <FaEur/>
+                    </div>
+                    <p className="currency-name">{currency.name}</p>
+                  </div>
+                );
+            }
+        });
     }
 }
 
 function mapStateToProps(state) {
     return{
-        links: state.links
+        currencies: state.currencies
     };
 }
 

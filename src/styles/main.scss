@@ -8,7 +8,7 @@ $btn-text: #42434B;
   margin: 0;
   padding: 0;
 }
-html, body, #root{
+html, body{
   height: 100%;
 }
 .container{
@@ -22,7 +22,6 @@ html, body, #root{
   background: $menu;
   position: relative;
   width: 90px;
-  height: 100%;
 }
 .logo{
   background: url(../images/logo.png) no-repeat 0 0;
@@ -99,7 +98,6 @@ html, body, #root{
 /* Dashboard */
 .block-main{
   background: $dashboard-color;
-  width: 100%;
   font-size: 20px;
   flex-direction: column;
   display: flex;
