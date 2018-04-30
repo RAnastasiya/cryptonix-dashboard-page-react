@@ -10,26 +10,15 @@ class Overview extends Component {
             <div>
               <div className="data-overview">
                 <div className="transactions-block">
-                  <div>
-                    <p>2,345</p>
-                    <p>Transactions</p>
-                  </div>
-                  <div className="wallets">
-                    <p>5</p>
-                    <p>Wallets</p>
-                  </div>
+                  <div> <p>2,345</p><p>Transactions</p></div>
+                  <div className="wallets"><p>5</p><p>Wallets</p></div>
                 </div>
 
                 <div className="current-balance">
-                  <p>Current balance</p>
-                  <p>USD</p>
-                  <p>3.4330</p>
+                  <p>Current balance</p><p>USD</p><p>3.4330</p>
                 </div>
                 <div className="buy-block">
-                  <div>
-                    <p>2.7995 EUR</p>
-                    <p>+12%</p>
-                  </div>
+                    2.7995 EUR<p>+12%</p>
                   <button>buy</button>
                 </div>
               </div>

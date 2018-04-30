@@ -24,22 +24,22 @@ html, body {
   margin: 35px 32px; }
 
 .block-menu-items {
-  padding-top: 29.5px;
-  min-height: 482.4px;
+  padding-top: 29px;
+  min-height: 485px;
   position: relative;
   background-size: contain; }
   .block-menu-items ul {
     list-style-type: none; }
   .block-menu-items li {
-    padding: 22.3px 0;
+    padding: 22px 0;
     background-size: contain;
-    height: 15.6px; }
+    height: 15px; }
     .block-menu-items li div {
-      padding: 22.3px 0;
+      padding: 22px 0;
       background-size: contain;
-      height: 15.6px;
-      width: 15.2px;
-      margin-left: 37.8px; }
+      height: 20px;
+      width: 20px;
+      margin-left: 38px; }
   .block-menu-items li:hover {
     background-color: #2A2B31; }
     .block-menu-items li:hover div {
@@ -238,11 +238,10 @@ html, body {
   padding-right: 10px; }
 
 .right-block {
-  justify-content: flex-end;
-  flex: 1 1 5%;
-  margin-right: 37px; }
+  flex: 1;
+  margin-right: 77px; }
   .right-block div {
-    min-width: 313px;
+    min-width: 203px;
     width: 100%;
     margin: 20px 0 20px auto;
     background: #1D2024;
@@ -307,7 +306,7 @@ html, body {
       text-align: center; }
 
 .current-balance {
-  padding-top: 10px; }
+  padding-top: 20px; }
   .current-balance p:nth-child(1) {
     font-family: Lato-Regular, serif;
     font-size: 12px;
@@ -328,20 +327,14 @@ html, body {
 
 .buy-block {
   display: flex;
-  flex-direction: row;
-  margin-top: 45px; }
-  .buy-block div {
-    display: flex;
-    flex-direction: row;
-    flex: 3 3 11%; }
-    .buy-block div p {
-      font-family: AppleSystemUIFont, serif;
-      font-size: 14px;
-      letter-spacing: 0.4px; }
-    .buy-block div p:nth-child(1) {
-      color: #FFFFFF; }
-    .buy-block div p:nth-child(2) {
-      color: #A6D345; }
+  margin-top: 45px;
+  font-family: AppleSystemUIFont, serif;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF; }
+  .buy-block p {
+    color: #A6D345;
+    margin-right: 40px; }
   .buy-block button {
     border: 2px solid #7AC231;
     border-radius: 60px;
@@ -351,7 +344,8 @@ html, body {
     letter-spacing: 0.3px;
     text-align: center;
     width: 53px;
-    height: 7px; }
+    height: 7px;
+    float: right; }
 
 .block-wallets {
   min-width: 620px;
@@ -391,69 +385,54 @@ html, body {
         width: 200px;
         background: #7AC231;
         flex: auto;
-        display: flex;
+        display: inline;
         flex-direction: column;
         padding: 10px; }
         .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(1) {
-          display: flex;
-          flex-direction: row; }
-          .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(1) p {
-            font-family: Lato-Regular, serif;
-            font-size: 12px;
-            color: #65A028;
-            letter-spacing: 0.26px;
-            flex: 3;
-            margin: 10px; }
+          font-family: Lato-Regular, serif;
+          font-size: 12px;
+          color: #65A028;
+          letter-spacing: 0.26px;
+          display: inline; }
           .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(1) svg {
             padding: 5px;
             background: #65A028;
             border-radius: 2px;
             height: 30px;
             width: 30px;
+            float: right;
             color: #FFFFFF; }
         .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(2) {
-          display: flex;
-          flex-direction: row;
-          margin-top: 20px; }
-          .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(2) p:nth-child(1) {
-            font-family: Lato-Regular, serif;
-            font-size: 16px;
-            color: #FFFFFF;
-            letter-spacing: 0.34px;
-            margin: 10px;
-            flex: 3; }
-          .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(2) p:nth-child(2) {
+          padding-top: 35px;
+          font-family: Lato-Regular, serif;
+          font-size: 16px;
+          color: #FFFFFF;
+          letter-spacing: 0.34px; }
+          .block-wallets .wallets-values .currency-of-wallet-values .currency1 div:nth-child(2) p {
             font-family: Lato-Regular, serif;
             font-size: 24px;
-            color: #FFFFFF;
             letter-spacing: 0.3px;
-            width: 110px;
-            text-align: right;
-            margin-bottom: 10px; }
+            float: right; }
       .block-wallets .wallets-values .currency-of-wallet-values .currency2 {
         width: 120px;
         margin-left: 20px;
         padding: 10px;
         background: #1D2024;
         display: flex;
-        flex-direction: column; }
-        .block-wallets .wallets-values .currency-of-wallet-values .currency2 div:nth-child(1) {
-          display: flex;
-          flex-direction: row; }
-          .block-wallets .wallets-values .currency-of-wallet-values .currency2 div:nth-child(1) p {
-            font-family: Lato-Regular, serif;
-            font-size: 12px;
-            color: #3A3C43;
-            letter-spacing: 0.26px;
-            flex: 3;
-            margin: 10px; }
-          .block-wallets .wallets-values .currency-of-wallet-values .currency2 div:nth-child(1) svg {
-            padding: 5px;
-            background: #3A3C43;
-            border-radius: 2px;
-            height: 30px;
-            width: 30px;
-            color: #FFFFFF; }
+        flex-direction: column;
+        font-family: Lato-Regular, serif;
+        font-size: 12px;
+        color: #3A3C43;
+        letter-spacing: 0.26px;
+        flex: 3; }
+        .block-wallets .wallets-values .currency-of-wallet-values .currency2 svg {
+          padding: 5px;
+          background: #3A3C43;
+          border-radius: 2px;
+          height: 30px;
+          width: 30px;
+          color: #FFFFFF;
+          float: right; }
         .block-wallets .wallets-values .currency-of-wallet-values .currency2 .currency-name {
           font-family: Lato-Regular, serif;
           font-size: 16px;
@@ -584,7 +563,22 @@ html, body {
   height: 300px; }
 
 .block-transactions {
-  height: 477px; }
+  height: 437px;
+  padding: 20px; }
 
 .block-news {
-  height: 120px; }
+  padding: 20px;
+  height: 120px;
+  font-family: Lato-Regular, serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0.3px; }
+  .block-news p {
+    padding: 10px 0;
+    font-size: 14px;
+    letter-spacing: 0.35px; }
+  .block-news p:nth-child(2) {
+    font-family: Lato-Regular, serif;
+    font-size: 12px;
+    color: #42434B;
+    letter-spacing: 0.3px; }
