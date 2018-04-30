@@ -17,38 +17,33 @@ class Wallets extends Component {
                 <div className="currency1">
                   <div>
                     <p>BTC</p>
-                    <FaBitcoin />
+                    <FaBitcoin/>
                   </div>
                   <div>
                     <p>Bitcoin</p>
                     <p>0.221746</p>
                   </div>
                 </div>
-                <Currencies />
+                <Currencies/>
               </div>
               <div className="currency-of-wallet">
                 <div className="currency-ratet">
-                  <CurrencyRatet />
+                  <CurrencyRatet/>
                 </div>
                 <div className="currency-send">
-                  <div>
-                    <p>WALLET</p>
-                    <input/>
-                    <p>AMOUNT</p>
-                    <p>0.233455</p>
+                  <div>WALLET
+                    <select>
+                      <option value="BTC">BTC</option>
+                      <option value="BTC1">BTC1</option>
+                      <option value="BTC2">BTC2</option>
+                    </select>
+                    AMOUNT<p>0.233455</p>
                   </div>
-                  <div>
-                    <p>SEND TO</p>
-                    <input placeholder="1Cs4wu6jdbchjdcjbjdjbck"/>
-                  </div>
-                  <div>
-                    <p>Receice Bitcoin</p>
-                    <button>send</button>
-                  </div>
+                  <div>SEND TO<input placeholder="1Cs4wu6jdbchjdcjbjdjbck"/></div>
+                  <div>Receice Bitcoin<button>send</button></div>
                 </div>
               </div>
             </div>
-
           </div>
         );
     }
