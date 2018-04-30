@@ -376,11 +376,10 @@ html, body {
       text-align: center; }
   .block-wallets .wallets-values {
     border-radius: 2px;
-    height: 225px;
     display: flex;
     flex-direction: column; }
     .block-wallets .wallets-values .currency-of-wallet-values {
-      height: 195px;
+      height: 111px;
       margin-bottom: 20px;
       display: flex;
       flex-direction: row; }
@@ -465,7 +464,6 @@ html, body {
       flex-direction: row; }
       .block-wallets .wallets-values .currency-of-wallet div {
         height: 148px;
-        opacity: 0.63;
         background: #222429;
         border-radius: 2px; }
       .block-wallets .wallets-values .currency-of-wallet .currency-ratet {

@@ -1,9 +1,4 @@
-$menu: #1D2024;
-$dashboard-color: #18191D;
-$text-on-page: #FFFFFF;
-$btn-text: #42434B;
-
-
+@import "color.scss";
 *{
   margin: 0;
   padding: 0;
@@ -19,7 +14,7 @@ html, body{
 
 /* Menu */
 .block-menu{
-  background: $menu;
+  background: $color-block;
   position: relative;
   width: 90px;
 }
@@ -52,7 +47,7 @@ html, body{
     }
   }
   li:hover {
-    background-color: #2A2B31;
+    background-color: $btn-hover;
     div{
       filter: brightness(0) invert(1);
     }
@@ -101,6 +96,7 @@ html, body{
   font-size: 20px;
   flex-direction: column;
   display: flex;
+  width: 100%;
 }
 .flex-item {
   margin: 10px;
@@ -119,7 +115,7 @@ html, body{
 .name-page{
   font-family: SFNSDisplay, serif;
   font-size: 24px;
-  color: $text-on-page;
+  color: $text-white;
   letter-spacing: 0.3px;
   text-align: center;
   padding: 21px 100px 0 14px;
@@ -135,7 +131,7 @@ html, body{
   input{
     width: 245px;
     height: 35px;
-    background: #2A2B31;
+    background: $btn-hover;
     border: none;
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -178,10 +174,10 @@ html, body{
   .btn-exclamation{
     width: 96px;
     height: 35px;
-    background: #2A2B31;
+    background: $btn-hover;
     border: none;
     padding-left: 20px;
-    color: $text-on-page;
+    color: $text-white;
     font-family: Lato-Regular, serif;
     font-size: 12px;
     letter-spacing: 0.3px;
@@ -198,12 +194,12 @@ html, body{
     }
   }
   .btn-plus{
-    border: 2px solid #3F4048;
+    border: 2px solid $icon;
     border-radius: 2px;
     width: 35px;
     height: 35px;
     background: $dashboard-color;
-    color: #3F4048;
+    color: $icon;
     font-family: Lato-Regular, serif;
     font-size: 35px;
     position: absolute;
@@ -226,7 +222,7 @@ html, body{
   padding-top: 8px;
   vertical-align: middle;
   font-size: 18px;
-  color: #3F4048;
+  color: $icon;
 }
 .user-icon{
   width: 200px;
@@ -237,7 +233,7 @@ html, body{
     width: 150px;
     padding-top: 10px;
     p{
-      color: $text-on-page;
+      color: $text-white;
       font-family: Lato-Regular, serif;
       font-size: 14px;
       letter-spacing: 0.3px;
@@ -245,9 +241,9 @@ html, body{
     }
   }
   svg{
-    border: 2px solid #3F4048;
+    border: 2px solid $icon;
     width: 33px;
     height: 33px;
-    color: #3F4048;
+    color: $icon;
   }
 }

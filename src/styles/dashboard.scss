@@ -1,6 +1,5 @@
-$color-block: #1D2024;
-$dashboard-color: #18191D;
-$btn-text: #42434B;
+@import "color.scss";
+
 /* block-dashboard */
 .block-dashboard{
   height: 100%;
@@ -45,7 +44,7 @@ $btn-text: #42434B;
   }
 }
 .data-overview{
-  background: #2A2B31;
+  background: $btn-hover;
   border-radius: 2px;
   height: 240px;
   display: flex;
@@ -55,19 +54,19 @@ $btn-text: #42434B;
 .transactions-block{
   display: flex;
   flex-direction: row;
-  color: #FFFFFF;
+  color: $text-white;
   div:nth-child(1){
     flex: auto;
     p:nth-child(1){
       font-family: SFNSDisplay, serif;
       font-size: 40px;
-      color: #FFFFFF;
+      color: $text-white;
       letter-spacing: 0.34px;
     }
     p:nth-child(2){
       font-family: Lato-Regular, serif;
       font-size: 12px;
-      color: #42434B;
+      color: $btn-text;
       letter-spacing: 0.3px;
     }
   }
@@ -81,14 +80,14 @@ $btn-text: #42434B;
     p:nth-child(1){
       font-family: SFNSDisplay, serif;
       font-size: 40px;
-      color: #FFFFFF;
+      color: $text-white;
       letter-spacing: 0.3px;
       text-align: center;
     }
     p:nth-child(2){
       font-family: Lato-Regular, serif;
       font-size: 13px;
-      color: #FFFFFF;
+      color: $text-white;
       letter-spacing: 0.3px;
       text-align: center;
     }
@@ -114,7 +113,7 @@ $btn-text: #42434B;
   p:nth-child(3){
     font-family: SFNSDisplay, serif;
   font-size: 48px;
-  color: #FFFFFF;
+  color: $text-white;
   letter-spacing: 0.33px;
   }
 }
@@ -133,7 +132,7 @@ $btn-text: #42434B;
     }
     p:nth-child(1){
 
-      color: #FFFFFF;
+      color: $text-white;
     }
     p:nth-child(2){
       color: #A6D345;
@@ -144,7 +143,7 @@ $btn-text: #42434B;
     border-radius: 60px;
     font-family: AppleSystemUIFont, serif;
     font-size: 12px;
-    color: #FFFFFF;
+    color: $text-white;
     letter-spacing: 0.3px;
     text-align: center;
     width: 53px;
@@ -163,7 +162,7 @@ $btn-text: #42434B;
     p{
       font-family: Lato-Regular, serif;
       font-size: 16px;
-      color: #FFFFFF;
+      color: $text-white;
       letter-spacing: 0.3px;
       flex: auto;
     }
@@ -181,11 +180,10 @@ $btn-text: #42434B;
   }
   .wallets-values{
     border-radius: 2px;
-    height: 225px;
     display: flex;
     flex-direction: column;
     .currency-of-wallet-values{
-      height: 195px;
+      height: 111px;
       margin-bottom: 20px;
       display: flex;
       flex-direction: row;
@@ -216,7 +214,7 @@ $btn-text: #42434B;
             border-radius: 2px;
             height: 30px;
             width: 30px;
-            color: white;
+            color: $text-white;
           }
         }
         div:nth-child(2){
@@ -226,7 +224,7 @@ $btn-text: #42434B;
           p:nth-child(1){
             font-family: Lato-Regular, serif;
             font-size: 16px;
-            color: #FFFFFF;
+            color: $text-white;
             letter-spacing: 0.34px;
             margin: 10px;
             flex: 3;
@@ -234,7 +232,7 @@ $btn-text: #42434B;
           p:nth-child(2){
             font-family: Lato-Regular, serif;
             font-size: 24px;
-            color: #FFFFFF;
+            color: $text-white;
             letter-spacing: 0.3px;
             width: 110px;
             text-align: right;
@@ -266,13 +264,13 @@ $btn-text: #42434B;
             border-radius: 2px;
             height: 30px;
             width: 30px;
-            color: white;
+            color: $text-white;
           }
         }
         .currency-name{
           font-family: Lato-Regular, serif;
           font-size: 16px;
-          color: #FFFFFF;
+          color: $text-white;
           letter-spacing: 0.34px;
           padding-top: 25px;
           padding-left: 10px;
@@ -285,7 +283,6 @@ $btn-text: #42434B;
       flex-direction: row;
       div{
         height: 148px;
-        opacity: 0.63;
         background: #222429;
         border-radius: 2px;
       }
