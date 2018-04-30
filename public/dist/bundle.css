@@ -1,154 +1,3 @@
-/* block-dashboard */
-.block-dashboard {
-  height: 100%;
-  display: flex; }
-
-.block {
-  margin: 20px 10px 0 10px;
-  background: #1D2024;
-  border-radius: 2px; }
-
-.left-block {
-  flex: 3 3 22%;
-  padding-left: 20px;
-  padding-right: 10px; }
-
-.right-block {
-  justify-content: flex-end;
-  flex: 1 1 5%;
-  margin-right: 37px; }
-  .right-block div {
-    min-width: 313px;
-    width: 100%;
-    margin: 20px 0 20px auto;
-    background: #1D2024;
-    border-radius: 2px; }
-
-.block-overview {
-  min-width: 270px;
-  width: 30%;
-  background: #18191D !important; }
-  .block-overview button {
-    font-family: Lato-Regular, serif;
-    font-size: 16px;
-    color: #42434B;
-    letter-spacing: 0.32px;
-    text-align: center;
-    background: no-repeat;
-    border: none;
-    padding-bottom: 20px; }
-
-.data-overview {
-  background: #2A2B31;
-  border-radius: 2px;
-  height: 240px;
-  display: flex;
-  flex-direction: column;
-  padding: 30px; }
-
-.transactions-block {
-  display: flex;
-  flex-direction: row;
-  color: #FFFFFF; }
-  .transactions-block div:nth-child(1) {
-    flex: 3 3 11%; }
-    .transactions-block div:nth-child(1) p:nth-child(1) {
-      font-family: SFNSDisplay, serif;
-      font-size: 40px;
-      color: #FFFFFF;
-      letter-spacing: 0.34px; }
-    .transactions-block div:nth-child(1) p:nth-child(2) {
-      font-family: Lato-Regular, serif;
-      font-size: 12px;
-      color: #42434B;
-      letter-spacing: 0.3px; }
-  .transactions-block div:nth-child(2) {
-    flex: 1 1 11%;
-    width: 65px;
-    height: 76px;
-    background: #252529;
-    border-radius: 2px;
-    text-align: center; }
-    .transactions-block div:nth-child(2) p:nth-child(1) {
-      font-family: SFNSDisplay, serif;
-      font-size: 40px;
-      color: #FFFFFF;
-      letter-spacing: 0.3px;
-      text-align: center; }
-    .transactions-block div:nth-child(2) p:nth-child(2) {
-      font-family: Lato-Regular, serif;
-      font-size: 13px;
-      color: #FFFFFF;
-      letter-spacing: 0.3px;
-      text-align: center; }
-
-.current-balance {
-  padding-top: 10px; }
-  .current-balance p:nth-child(1) {
-    font-family: Lato-Regular, serif;
-    font-size: 12px;
-    color: #606166;
-    letter-spacing: 0.3px; }
-  .current-balance p:nth-child(2) {
-    font-family: AppleSystemUIFont, serif;
-    font-size: 12px;
-    color: #3A3C43;
-    letter-spacing: 0.26px;
-    float: right;
-    padding-right: 45px; }
-  .current-balance p:nth-child(3) {
-    font-family: SFNSDisplay, serif;
-    font-size: 48px;
-    color: #FFFFFF;
-    letter-spacing: 0.33px; }
-
-.buy-block {
-  display: flex;
-  flex-direction: row;
-  margin-top: 45px; }
-  .buy-block div {
-    display: flex;
-    flex-direction: row;
-    flex: 3 3 11%; }
-    .buy-block div p {
-      font-family: AppleSystemUIFont, serif;
-      font-size: 14px;
-      letter-spacing: 0.4px; }
-    .buy-block div p:nth-child(1) {
-      color: #FFFFFF; }
-    .buy-block div p:nth-child(2) {
-      color: #A6D345; }
-  .buy-block button {
-    border: 2px solid #7AC231;
-    border-radius: 60px;
-    font-family: AppleSystemUIFont, serif;
-    font-size: 12px;
-    color: #FFFFFF;
-    letter-spacing: 0.3px;
-    text-align: center;
-    width: 53px;
-    height: 7px; }
-
-.block-wallets {
-  min-width: 620px;
-  width: 66%;
-  height: 300px; }
-
-.block-bitcoinChart {
-  min-width: 655px;
-  width: 70%;
-  height: 300px; }
-
-.block-markets {
-  min-width: 235px;
-  width: 26%;
-  height: 300px; }
-
-.block-transactions {
-  height: 477px; }
-
-.block-news {
-  height: 120px; }
 * {
   margin: 0;
   padding: 0; }
@@ -373,3 +222,247 @@ html, body, #root {
     width: 33px;
     height: 33px;
     color: #3F4048; }
+/* block-dashboard */
+.block-dashboard {
+  height: 100%;
+  display: flex; }
+
+.block {
+  margin: 20px 10px 0 10px;
+  background: #1D2024;
+  border-radius: 2px; }
+
+.left-block {
+  flex: 3 3 22%;
+  padding-left: 20px;
+  padding-right: 10px; }
+
+.right-block {
+  justify-content: flex-end;
+  flex: 1 1 5%;
+  margin-right: 37px; }
+  .right-block div {
+    min-width: 313px;
+    width: 100%;
+    margin: 20px 0 20px auto;
+    background: #1D2024;
+    border-radius: 2px; }
+
+.block-overview {
+  min-width: 270px;
+  width: 30%;
+  background: #18191D !important; }
+  .block-overview button {
+    font-family: Lato-Regular, serif;
+    font-size: 16px;
+    color: #42434B;
+    letter-spacing: 0.32px;
+    text-align: center;
+    background: no-repeat;
+    border: none;
+    padding-bottom: 20px; }
+
+.data-overview {
+  background: #2A2B31;
+  border-radius: 2px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px; }
+
+.transactions-block {
+  display: flex;
+  flex-direction: row;
+  color: #FFFFFF; }
+  .transactions-block div:nth-child(1) {
+    flex: auto; }
+    .transactions-block div:nth-child(1) p:nth-child(1) {
+      font-family: SFNSDisplay, serif;
+      font-size: 40px;
+      color: #FFFFFF;
+      letter-spacing: 0.34px; }
+    .transactions-block div:nth-child(1) p:nth-child(2) {
+      font-family: Lato-Regular, serif;
+      font-size: 12px;
+      color: #42434B;
+      letter-spacing: 0.3px; }
+  .transactions-block div:nth-child(2) {
+    flex: 1 1 11%;
+    width: 65px;
+    height: 76px;
+    background: #252529;
+    border-radius: 2px;
+    text-align: center; }
+    .transactions-block div:nth-child(2) p:nth-child(1) {
+      font-family: SFNSDisplay, serif;
+      font-size: 40px;
+      color: #FFFFFF;
+      letter-spacing: 0.3px;
+      text-align: center; }
+    .transactions-block div:nth-child(2) p:nth-child(2) {
+      font-family: Lato-Regular, serif;
+      font-size: 13px;
+      color: #FFFFFF;
+      letter-spacing: 0.3px;
+      text-align: center; }
+
+.current-balance {
+  padding-top: 10px; }
+  .current-balance p:nth-child(1) {
+    font-family: Lato-Regular, serif;
+    font-size: 12px;
+    color: #606166;
+    letter-spacing: 0.3px; }
+  .current-balance p:nth-child(2) {
+    font-family: AppleSystemUIFont, serif;
+    font-size: 12px;
+    color: #3A3C43;
+    letter-spacing: 0.26px;
+    float: right;
+    padding-right: 45px; }
+  .current-balance p:nth-child(3) {
+    font-family: SFNSDisplay, serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0.33px; }
+
+.buy-block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px; }
+  .buy-block div {
+    display: flex;
+    flex-direction: row;
+    flex: 3 3 11%; }
+    .buy-block div p {
+      font-family: AppleSystemUIFont, serif;
+      font-size: 14px;
+      letter-spacing: 0.4px; }
+    .buy-block div p:nth-child(1) {
+      color: #FFFFFF; }
+    .buy-block div p:nth-child(2) {
+      color: #A6D345; }
+  .buy-block button {
+    border: 2px solid #7AC231;
+    border-radius: 60px;
+    font-family: AppleSystemUIFont, serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 53px;
+    height: 7px; }
+
+.block-wallets {
+  min-width: 620px;
+  width: 66%;
+  background: #18191D !important; }
+  .block-wallets .wallets-add {
+    display: flex;
+    flex-direction: row; }
+    .block-wallets .wallets-add p {
+      font-family: Lato-Regular, serif;
+      font-size: 16px;
+      color: #FFFFFF;
+      letter-spacing: 0.3px;
+      flex: auto; }
+    .block-wallets .wallets-add button {
+      background: no-repeat;
+      border: none;
+      padding-bottom: 30px;
+      padding-right: 7px;
+      font-family: AppleSystemUIFont, serif;
+      font-size: 12px;
+      color: #7AC231;
+      letter-spacing: 0.3px;
+      text-align: center; }
+  .block-wallets .wallets-values {
+    border-radius: 2px;
+    height: 225px;
+    display: flex;
+    flex-direction: column; }
+    .block-wallets .wallets-values .currency-of-wallet-values {
+      height: 195px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: row; }
+      .block-wallets .wallets-values .currency-of-wallet-values div {
+        border-radius: 2px;
+        width: 200px;
+        background: #7AC231;
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px; }
+        .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(1) {
+          display: flex;
+          flex-direction: row; }
+          .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(1) p {
+            font-family: Lato-Regular, serif;
+            font-size: 12px;
+            color: #65A028;
+            letter-spacing: 0.26px;
+            flex: 3;
+            margin: 10px; }
+          .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(1) svg {
+            padding: 5px;
+            background: #65A028;
+            border-radius: 2px;
+            height: 30px;
+            width: 30px;
+            color: white; }
+        .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(2) {
+          display: flex;
+          flex-direction: row;
+          margin-top: 20px; }
+          .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(2) p:nth-child(1) {
+            font-family: Lato-Regular, serif;
+            font-size: 16px;
+            color: #FFFFFF;
+            letter-spacing: 0.34px;
+            margin: 10px;
+            flex: 3; }
+          .block-wallets .wallets-values .currency-of-wallet-values div div:nth-child(2) p:nth-child(2) {
+            font-family: Lato-Regular, serif;
+            font-size: 24px;
+            color: #FFFFFF;
+            letter-spacing: 0.3px;
+            width: 110px;
+            text-align: right;
+            margin-bottom: 10px; }
+      .block-wallets .wallets-values .currency-of-wallet-values ul {
+        width: 120px;
+        border-radius: 2px; }
+        .block-wallets .wallets-values .currency-of-wallet-values ul li {
+          margin-left: 20px;
+          background: #1D2024; }
+    .block-wallets .wallets-values .currency-of-wallet {
+      display: flex;
+      flex-direction: row; }
+      .block-wallets .wallets-values .currency-of-wallet div {
+        height: 165px;
+        opacity: 0.63;
+        background: #222429;
+        border-radius: 2px; }
+      .block-wallets .wallets-values .currency-of-wallet div:nth-child(1) {
+        flex: auto;
+        width: 269px; }
+      .block-wallets .wallets-values .currency-of-wallet div:nth-child(2) {
+        width: 330px;
+        margin-left: 20px; }
+
+.block-bitcoinChart {
+  min-width: 655px;
+  width: 70%;
+  height: 300px; }
+
+.block-markets {
+  min-width: 235px;
+  width: 26%;
+  height: 300px; }
+
+.block-transactions {
+  height: 477px; }
+
+.block-news {
+  height: 120px; }
