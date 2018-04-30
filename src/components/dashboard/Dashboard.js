@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import News from "./News";
 import Transactions from "./Transactions";
 import Overview from "./Overview";
 import Wallets from "./Wallets";
 import BitcoinChart from "./BitcoinChart";
 import Markets from "./Markets";
+import News from "../../constants/News";
 
 class Dashboard extends Component {
     render() {
